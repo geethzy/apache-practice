@@ -1,0 +1,30 @@
+//Upload Files to HDFS
+hdfs dfs -put /local/path/to/file /hdfs/path
+
+//Download Files from HDFS
+hdfs dfs -get /hdfs/path /local/path
+
+//List Files and Directories in HDFS
+hdfs dfs -ls /hdfs/path
+
+//Create Directories in HDFS
+hdfs dfs -mkdir /hdfs/path
+
+//Delete Files and Directories in HDFS
+hdfs dfs -rm /hdfs/path/to/file
+hdfs dfs -rm -r /hdfs/path/to/directory
+
+//Check Disk Usage
+hdfs dfs -du /hdfs/path
+
+//Copy Files in HDFS
+hdfs dfs -cp /source/path /destination/path
+
+//Move Files in HDFS
+hdfs dfs -mv /source/path /destination/path
+
+//Change Permissions
+hdfs dfs -chmod mode /hdfs/path
+
+
+
